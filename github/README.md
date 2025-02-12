@@ -45,17 +45,8 @@ NeuralClassifier 旨在快速实现分层多标签分类任务的神经模型，
 
 ### Training
 
-#### How to train a non-hierarchical classifier 
-    python conf/train.hmcnRec06.json 
-* set task_info.hierarchical = false.
-* model_name can be `FastText、TextCNN、TextRNN、TextRCNN、DRNN、VDCNN、DPCNN、AttentiveConvNet、Transformer`.   
-
-#### How to train a hierarchical classifier using hierarchial penalty 
-    python train.py conf/train.hierar.json
-* set task_info.hierarchical = true.
-* model_name can be `FastText、TextCNN、TextRNN、TextRCNN、DRNN、VDCNN、DPCNN、AttentiveConvNet、Transformer`
 #### How to train a hierarchical classifier with HMCN   ### we need this ！！！
-    python train.py conf/train.hmcn.json 
+     python conf/train.hmcnRec06.json 
 * set task_info.hierarchical = false.
 * set model_name = `HMCN`
 
