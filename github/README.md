@@ -46,7 +46,7 @@ NeuralClassifier 旨在快速实现分层多标签分类任务的神经模型，
 ### Training
 
 #### How to train a non-hierarchical classifier 
-    python train.py conf/train.json 
+    python conf/train.hmcnRec06.json 
 * set task_info.hierarchical = false.
 * model_name can be `FastText、TextCNN、TextRNN、TextRCNN、DRNN、VDCNN、DPCNN、AttentiveConvNet、Transformer`.   
 
@@ -64,7 +64,7 @@ NeuralClassifier 旨在快速实现分层多标签分类任务的神经模型，
 The training info will be outputted in standard output and log.logger\_file.
 
 ### Evaluation
-    python eval.py conf/train.json
+    python eval.py conf/train.hmcnRec06.json
 
 * if eval.is\_flat = false, hierarchical evaluation will be outputted.
 * eval.model\_dir is the model to evaluate.
@@ -173,7 +173,7 @@ Some public codes are referenced by our toolkit:
 
 ## Update
 
-* 2019-04-29, init version
+* 2024-2-12, Chinese version
 
 ## train.hmcn 负责调整Hmcn 模型的参数
-## 训练模型入口 打开终端 F:\Graduation Design\Graduation Design\Tencent\NeuralNLP-NeuralClassifier> python train.py conf/train.hmcn.json
+
