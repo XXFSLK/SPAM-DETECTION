@@ -7,7 +7,8 @@
 
 NeuralClassifier is designed for quick implementation of neural models for hierarchical multi-label classification task, which is more challenging and common in real-world scenarios. A salient feature is that NeuralClassifier currently provides a variety of text encoders, such as FastText, TextCNN, TextRNN, RCNN, VDCNN, DPCNN, DRNN, AttentiveConvNet and Transformer encoder, etc. It also supports other text classification scenarios, including binary-class and multi-class classification. It is built on [PyTorch](https://pytorch.org/). Experiments show that models built in our toolkit achieve comparable performance with reported results in the literature.
 ##
-NeuralClassifier 旨在快速实现分层多标签分类任务的神经模型，这在现实场景中更具挑战性且更常见。一个显着的特点是，NeuralClassifier 目前提供各种文本编码器，例如 FastText、TextCNN、TextRNN、RCNN、VDCNN、DPCNN、DRNN、AttentiveConvNet 和 Transformer 编码器等。它还支持其他文本分类场景，包括二分类和多分类。它基于 [PyTorch](https://pytorch.org/) 构建。实验表明，在我们的工具包中构建的模型实现了与文献中报告的结果相当的性能。
+NeuralClassifier 旨在快速实现分层多标签分类任务的神经模型，这在现实场景中更具挑战性且更常见。NeuralClassifier 目前提供各种文本编码器，例如 FastText、TextCNN、TextRNN、RCNN、VDCNN、DPCNN、DRNN、AttentiveConvNet 和 Transformer 编码器等。它还支持其他文本分类场景，包括二分类和多分类。它基于 [PyTorch](https://pytorch.org/) 构建。
+我基于腾讯的该项目用 搜狗数据库以及REC06中文数据集做了针对中文的文本分类
 ## Support tasks
 
 * Binary-class text classifcation
