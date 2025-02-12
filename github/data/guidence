@@ -1,0 +1,61 @@
+Root  
+├── SPAM  
+│   ├── Advertisement  
+│   │   ├── Finance  
+│   │   ├── IT  
+│   │   ├── Health  
+│   │   ├── Sports  
+│   │   ├── Travel  
+│   │   ├── Education  
+│   │   ├── Recruit  
+│   │   ├── Culture  
+│   │   ├── Military  
+│   │   └── Miscellaneous  
+│   ├── Fraud  
+│   │   ├── Phishing  
+│   │   ├── Fake Investment  
+│   │   ├── Lottery Scams  
+│   │   ├── Identity Theft  
+│   │   └── Miscellaneous  
+│   ├── Malicious Content  
+│   │   ├── Malware Links  
+│   │   ├── Fake Tech Support  
+│   │   ├── Hacking Services  
+│   │   ├── Data Theft  
+│   │   └── Miscellaneous  
+│   ├── Explicit Content  
+│   │   ├── Adult Services  
+│   │   ├── Pornographic Content  
+│   │   ├── Dating Scams  
+│   │   └── Miscellaneous  
+│   ├── Political/Government Misinformation  
+│   ├── Unclassified  
+└── NOSPAM  
+    ├── Finance  
+    ├── IT  
+    ├── Health  
+    ├── Sports  
+    ├── Travel  
+    ├── Education  
+    ├── Recruit  
+    ├── Culture  
+    ├── Military  
+    └── Miscellaneous  
+
+
+
+Advertisement Finance IT Health Sports Travel Education Recruit
+A            A1      A2 A3     A4     A5     A6        A7
+Fraud Phishing  FakeInvestment
+F     F1        F2
+MaliciousContent MalwareLinks   FakeTech upport
+M                M1             M2
+ExplicitContent  Adult Services Pornographic Content
+E                E1             E2
+PoliticalMisinformation
+P
+Unclassified
+U
+
+NOSPAM	Finance IT Health Sports Travel Education Recruit Culture Military
+    N1      N2  N3    N4     N5     N6        N7      N8      N9

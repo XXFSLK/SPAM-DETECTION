@@ -1,0 +1,10 @@
+Root	SPAM    NOSPAM
+SPAM	Advertisement  Fraud  MaliciousContent  ExplicitConte  PoliticalMisinformation  Unclassified
+Advertisement  Finance  IT  Health  Sports  Travel  Education  Recruit
+Fraud  Phishing   FakeInvestment
+MaliciousContent  MalwareLinks   FakeTechSupport
+ExplicitContent  AdultServices  PornographicContent 
+PoliticalMisinformation   
+Unclassified    
+NOSPAM	Finance IT  Health  Sports  Travel  Education  Recruit  Culture  Military
+
