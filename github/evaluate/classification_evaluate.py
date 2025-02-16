@@ -262,7 +262,7 @@ class ClassificationEvaluator(object):
                     predict_label_ids = [prob_np.argmax()]
                 else:
                     predict_label_ids = []
-                    predict_label_idx = np.argsort(prob_np)[:top_k] #change here
+                    predict_label_idx = np.argsort(-prob_np)[:top_k] #change here
                     print(f"predict_label_idx: {predict_label_idx}")
                     print("prob_np: ({prob_np}")  
                     for j in range(0, top_k):
